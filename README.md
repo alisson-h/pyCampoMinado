@@ -1,4 +1,4 @@
-# Campo Minado (versão simples em Python)
+# Campo Minado
 
 Projeto: jogo Campo Minado implementado em Python.  
 Ponto de entrada: `main.py`.
@@ -20,8 +20,13 @@ Campo Minado é um jogo de lógica onde você abre casas em um tabuleiro tentand
 1. Abra o terminal/cmd na pasta do projeto (onde está `main.py`).
 2. Execute:
    - Windows / macOS / Linux:
-        python main.py
-   - (Se necessário) python3 main.py
+   ```python
+   python main.py
+   ```
+   - (Se necessário) 
+   ```python
+   python3 main.py
+   ```
 3. Requisitos: Python 3.8+ (não há dependências externas).
 
 ## Como jogar (comandos)
@@ -46,6 +51,10 @@ Fluxo típico:
 3. O jogo atualizará o tabuleiro; marque bandeiras para indicar bombas suspeitas.
 
 ## Exemplos
+<div align = center >
+<img src = "https://github.com/user-attachments/assets/cc8b1e01-fbc2-4127-9e61-e755f84f9014" width = "350px"\>
+<img src = "https://github.com/user-attachments/assets/ddea9c1f-f932-436b-8ebe-f44615ab1428" width = "350px"\>
+</div>
 
 ## Conclusão
 Esta é uma implementação simples do Campo Minado, pensada para rodar em terminal. É uma boa base para aprender lógica de tabuleiro, recursão (abertura de células vazias) e interação via linha de comando.
